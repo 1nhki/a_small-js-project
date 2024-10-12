@@ -1,0 +1,5 @@
+const path = require('path')
+const fs = require('fs')
+const write_file = fs.createWriteStream(path.resolve(__dirname, 'output.txt'))
+write_file.write("alamak aku keren")
+write_file.end()
