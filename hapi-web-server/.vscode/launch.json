@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "command" : "npm run start",
+            "name" : "starrt server",
+            "request": "launch",
+            "type": "node-terminal",
+        }
+        
+
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "configurations": [
+    {
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/app.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    },
+    {
+        "command": "npm run start",
+        "name": "alamak",
+        "request": "launch",
+        "type": "node-terminal"
+    },
+    
+}
