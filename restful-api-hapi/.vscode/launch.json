@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "command" : "npm run start",
+            "name" : "starrt server",
+            "request": "launch",
+            "type": "node-terminal",
+        },
+        {
+            "command" : "npm run nodemon",
+            "name" : "starrt nodemon",
+            "request": "launch",
+            "type": "node-terminal",
+        },
+        {
+            "command" : "npm run lint",
+            "name" : "lint",
+            "request": "launch",
+            "type": "node-terminal",
+        },
+        {
+            "command" : "npm run lint_fix",
+            "name" : "lint fix",
+            "request": "launch",
+            "type": "node-terminal",
+        },
+
+    ]
+}
